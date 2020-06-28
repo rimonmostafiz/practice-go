@@ -1,6 +1,8 @@
 package main
 
-import ("./array")
+import (
+	"./array"
+)
 
 func main() {
 	array.CreateArrays()
