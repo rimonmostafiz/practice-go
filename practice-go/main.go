@@ -1,9 +1,11 @@
 package main
 
 import (
-	"./array"
+	//"./array"
+	"./slice"
 )
 
 func main() {
-	array.CreateArrays()
+	//array.CreateArrays()
+	slice.CreateSlices()
 }
