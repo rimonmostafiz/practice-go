@@ -11,13 +11,13 @@ func CreateSlices() {
 	fmt.Println(x)
 	fmt.Println(a)
 
-	b := a[:] 	// slice of all element
+	b := a[:] // slice of all element
 	fmt.Println(b)
-	c := a[3:]	// slice from 4th element to end
+	c := a[3:] // slice from 4th element to end
 	fmt.Println(c)
-	d := a[:6]	// slice first 6 element
+	d := a[:6] // slice first 6 element
 	fmt.Println(d)
-	e := a[3:6]	// slice the 4th, 5th and 6th element
+	e := a[3:6] // slice the 4th, 5th and 6th element
 	fmt.Println(e)
 
 	slc := make([]int, 5)
@@ -38,7 +38,7 @@ func CreateSlices() {
 	fmt.Println(a)
 	b = a[1:]
 	fmt.Println(b)
-	c = a[:len(a) - 1]
+	c = a[:len(a)-1]
 	fmt.Println(c)
 	d = append(a[:2], a[3:]...)
 	fmt.Println(d)
