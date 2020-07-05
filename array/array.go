@@ -1,4 +1,4 @@
-package array_practice
+package _array
 
 import (
 	"fmt"
